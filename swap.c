@@ -12,6 +12,10 @@ printf("Enter y value to swap for x : \n");
 scanf("%d" ,&y);
 
 // Swapping...
+     int temp = x;
+     x = y;
+     y = temp;
+
 
 printf("x is now %d \n" ,x);
 printf("y is now %d \n" ,y);
